@@ -1,0 +1,15 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  web:
+    build: ./grow-box-admin
+    ports:
+      - "8080:8080"
+
+  db1:
+    build: ./grow-box-admin-db
+    container_name: db1
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_DB: "grow_box"
+
