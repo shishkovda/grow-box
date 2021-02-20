@@ -1,4 +1,8 @@
 #!/bin/bash
+git clone https://github.com/shishkovda/grow-box.git
+cd grow-box
+git pull
+
 git clone https://github.com/shishkovda/grow-box-admin.git
 cd grow-box-admin
 git pull
