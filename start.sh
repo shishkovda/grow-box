@@ -1,3 +1,4 @@
+#!/bin/bash
 git clone https://github.com/shishkovda/grow-box-admin.git
 cd grow-box-admin
 mvn clean install
