@@ -14,6 +14,7 @@ cd grow-box-admin-db
 git pull
 cd ..
 
+sudo docker-compose down
 sudo docker-compose build
 sudo docker-compose pull
 sudo docker-compose up
